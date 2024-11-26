@@ -1,0 +1,15 @@
+# Install uv   <<-- based on Connor's XL training course
+
+WINDOWS:
+1. powershell -ExeecutionPolicy ByPass -c "irm https://astral.sh/uv/install.psl | iex"
+2. open a new powershell window
+3. uv venv --seed
+4. uv pip install jupyterlab xlwings openpyxl
+5. launch Jupyterlab by executing:   uv run jupyter lab
+
+MACOS:
+1. curl -LsSf https://astral.sh/uv/install.sh | sh
+2. open a new terminal window
+3. uv venv --seed
+4. uv pip intsall jupyterlab xlwings openpyxl
+5. launch jupyterlab by executing: uv run jupyter lab
